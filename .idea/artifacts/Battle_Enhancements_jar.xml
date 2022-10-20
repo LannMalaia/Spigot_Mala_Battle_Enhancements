@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Battle_Enhancements:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Battle_Enhancements_jar</output-path>
+    <root id="archive" name="Battle_Enhancements.jar">
+      <element id="module-output" name="Battle_Enhancements" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../라이브러리(신)/ActionBarAPI-1.5.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../라이브러리/Laylia_Core_API.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../라이브러리/spigot-1.12.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../라이브러리(신)/mcMMO.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../라이브러리(신)/Vault.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

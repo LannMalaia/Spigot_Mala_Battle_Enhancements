@@ -1,0 +1,74 @@
+name: Battle_Enhancements_2
+main: Laylia.BE.Main.Main
+version: 1.18
+api-version: 1.18
+author: Malaia_Garnet
+description: Upgrade your server's battle experience.
+depend: [mcMMO, Laylia_Core_API, Laylia_Enchant]
+commands:
+   be-sword:
+      description: Just for test.
+      usage: /be-sword
+      default: true
+   be-axe:
+      description: Just for test.
+      usage: /be-axe
+      default: true
+   be-archery:
+      description: Just for test.
+      usage: /be-archery
+      default: true
+   be-crossbow:
+      description: Just for test.
+      usage: /be-crossbow
+      default: true
+   mmo-gauge-toggle:
+      description: Just for test.
+      usage: /mmo-gauge-toggle
+      default: true
+permissions:
+   battleEnhancements.mcmmo.swords.mastery:
+      description: Allows Sword Mastery Bonus.
+      default: false
+   battleEnhancements.mcmmo.swords.crit:
+      description: Allows Critical hit.
+      default: false
+   battleEnhancements.mcmmo.swords.counter:
+      description: Allows Counter Attack..
+      default: false
+   battleEnhancements.mcmmo.swords.swordwave:
+      description: Allows Sword Wave Skill..
+      default: false
+   battleEnhancements.mcmmo.axes.mastery:
+      description: Allows Axe Mastery Bonus.
+      default: false
+   battleEnhancements.mcmmo.axes.double_edge:
+      description: Allows Double Edge.
+      default: false
+   battleEnhancements.mcmmo.axes.tiger_power:
+      description: Allows Tiger Power.
+      default: false
+   battleEnhancements.mcmmo.axes.rage:
+      description: Allows Rage Skill.
+      default: false
+   battleEnhancements.mcmmo.archery.mastery:
+      description: Allows Bow Mastery Bonus.
+      default: false
+   battleEnhancements.mcmmo.archery.concentration:
+      description: Allows Concentration.
+      default: false
+   battleEnhancements.mcmmo.archery.support_shot:
+      description: Allows Support Shot.
+      default: false
+   battleEnhancements.mcmmo.archery.back_step:
+      description: Allows Back Step Skill.
+      default: false
+   battleEnhancements.mcmmo.crossbow.mastery:
+      description: Allows Bow Mastery Bonus.
+      default: false
+   battleEnhancements.mcmmo.crossbow.counting_shot:
+      description: Allows Counting Shot.
+      default: false
+   battleEnhancements.mcmmo.crossbow.back_step:
+      description: Allows Back Step Skill.
+      default: false
